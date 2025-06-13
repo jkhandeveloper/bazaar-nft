@@ -1,0 +1,51 @@
+/* styles/NFTGrid.module.css */
+
+/* Horizontal scroll container */
+.scrollWrapper {
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding-top: 60px; /* header offset */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.scrollWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+/* Row of columns */
+.gridContainer {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  min-width: 100%;
+  padding-left: 1rem;
+  padding-right: 3rem;
+}
+
+/* Each column scrolls vertically */
+.nftColumn {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 180px;
+  height: 600px;
+  overflow-y: auto;
+  scrollbar-width: none;
+}
+.nftColumn::-webkit-scrollbar {
+  display: none;
+}
+
+/* Optional staggered top offset */
+.offset1 {
+  margin-top: 10px;
+}
+.offset2 {
+  margin-top: 20px;
+}
+.offset3 {
+  margin-top: 30px;
+}
+.offset4 {
+  margin-top: 40px;
+}
