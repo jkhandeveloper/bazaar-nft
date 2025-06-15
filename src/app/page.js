@@ -19,7 +19,7 @@ export default function HomePage() {
           <h6 className="text-primary">NFT MARKETPLACE</h6>
           <h1 className="fw-bold display-5">Start YOUR NFT JOURNEY HERE</h1>
           <p className="text-muted mt-3">
-            Our marketplace is the world's first largest NFT market for
+            Our marketplace is the world&apos;s first largest NFT market for
             independent creators worldwide.
           </p>
           <div className="mt-4">
